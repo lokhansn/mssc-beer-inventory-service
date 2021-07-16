@@ -1,4 +1,4 @@
-package com.sgl.common.events;
+package com.sgl.sfg.brewery.model.events;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

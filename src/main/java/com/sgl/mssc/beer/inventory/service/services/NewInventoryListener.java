@@ -1,9 +1,9 @@
 package com.sgl.mssc.beer.inventory.service.services;
 
-import com.sgl.common.events.NewInventoryEvent;
 import com.sgl.mssc.beer.inventory.service.config.JmsConfig;
 import com.sgl.mssc.beer.inventory.service.domain.BeerInventory;
 import com.sgl.mssc.beer.inventory.service.repositories.BeerInventoryRepository;
+import com.sgl.sfg.brewery.model.events.NewInventoryEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
